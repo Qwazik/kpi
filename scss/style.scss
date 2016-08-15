@@ -447,7 +447,7 @@ p{
         padding: 0px 25px;
         display: inline-block;
         padding-bottom: 3px;
-        &:hover, .active{
+        &:hover, &.active{
             a{border-bottom: 3px solid #c51500;}
         }
     }
