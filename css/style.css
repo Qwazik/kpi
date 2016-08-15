@@ -432,12 +432,8 @@ p {
     background-color: #cacaca;
     -webkit-border-radius: 10px;
             border-radius: 10px; }
-  .left-menu__list li.active {
-    -webkit-border-radius: 10px;
-            border-radius: 10px;
-    background-color: #cacaca; }
-    .left-menu__list li.active .dropdown-menu {
-      display: block; }
+  .left-menu__list li.active .dropdown-menu {
+    display: block; }
   .left-menu__list li:first-child {
     margin-top: 0; }
 
