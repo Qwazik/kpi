@@ -350,16 +350,24 @@ p{
 
 .left-menu__list{
     li{
+        transition: background-color .5s;
         a{display: block;
 
             padding: 5px 9px;
             text-decoration: none;
         }
-        &.active{
-           
+        &:hover{
                 background-color: #cacaca;
                border-radius: 10px;
         }
+        &.active{
+               border-radius: 10px;
+            background-color: #cacaca;
+            .dropdown-menu{
+                display: block;
+            }
+        }
+
         display: block;
         line-height: 16px;
         margin-top: 25px;
@@ -368,6 +376,7 @@ p{
         }
     }
     .dropdown-menu{
+        display: none;
         margin-bottom: -10px;
         margin-top: 0px;
         padding-left: 0px;
