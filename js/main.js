@@ -37,6 +37,8 @@ $(document).ready(function(){
         items: 4,
         autoWidth: true,
         nav: true,
+        autoplay: true,
+        autoplayTimeout: 5000
         
 
     });
