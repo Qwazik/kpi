@@ -525,6 +525,21 @@ p {
     height: 100%;
     width: 100%;
     height: 351px; }
+  #mainSlider .owl-dots {
+    position: absolute;
+    left: 44px;
+    bottom: 10px; }
+    #mainSlider .owl-dots .owl-dot {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      -webkit-border-radius: 100%;
+              border-radius: 100%;
+      background-color: white;
+      border: 2px solid #667077;
+      margin-right: 8px; }
+      #mainSlider .owl-dots .owl-dot.active {
+        border-color: red; }
 
 .slide-content {
   z-index: 10;
