@@ -30,7 +30,7 @@ $(document).ready(function(){
     $('#mainSlider').owlCarousel({
         items: 1,
         autoplay: true,
-        autoplayTimeout: 5000
+        autoplayTimeout: 4000
     });
     $('#clientsCarousel').owlCarousel({
         margin: 38,
@@ -38,8 +38,8 @@ $(document).ready(function(){
         autoWidth: true,
         nav: true,
         autoplay: true,
-        autoplayTimeout: 5000
-        
-
+        autoplayTimeout: 4000
     });
 })
+
+
